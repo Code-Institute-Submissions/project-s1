@@ -1,12 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html ng-app='AppS1'>
 <head>
-    <title>Site name</title>
-    <link rel="stylesheet" type="text/css"href="bower_components/bootstrap/dist/bootstrap.min.css">
+    <title>Site Name</title>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
     <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+    <style type="text/css">
+        body {
+            padding-top: 70px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome!</h1>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#/">Angular Todo</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#/">Home</a></li>
+                <li><a href="#/events">Events</a></li>
+                <li><a href="#/songs">Songs</a></li>
+				<li><a href="#/gallery">Gallery</a></li>
+				<li><a href="#/bookings">Bookings</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div ng-view>
+ 
+    </div>
+<script src='js/app.js'></script>
+<script src='js/controller.js'></script>
+<script src='js/service.js'></script>
 </body>
 </html>

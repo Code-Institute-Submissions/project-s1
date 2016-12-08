@@ -5,18 +5,23 @@
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
     <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
     <style type="text/css">
         body {
-            padding-top: 70px;
+         padding-top: 51px;            
         }
     </style>
 </head>
+
+   <!--HEADER AND NAVBAR-->
+
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#/">Site Name</a>
-            </div>
+   <header id="header">
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+     <div class="container">
+          <div class="navbar-header">
+              <a class="navbar-brand" href="#/">Site Name</a>
+          </div>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#/">Home</a></li>
                 <li><a href="#/events">Events</a></li>
@@ -24,13 +29,32 @@
 				<li><a href="#/gallery">Gallery</a></li>
 				<li><a href="#/bookings">Bookings</a></li>
             </ul>
-        </div>
-    </nav>
-    <div ng-view>
+         </div>
+     </nav>
+    </header>
+
+    <!--MAIN CONTENT AND INJECTED VIEWS-->
+
+    <div id="main">
+        <div ng-view>
  
+        </div>
     </div>
+
+    <!--FOOTER-->
+
+    <footer id="footer">
+     <div class="container">
+        <ul>
+            <p><a href="#/">Home</a></p>
+            <p><a href="#/events">Events</a></p>
+            <p><a href="#/songs">Songs</a></p>
+            <p><a href="#/gallery">Gallery</a></p>
+            <p><a href="#/bookings">Bookings</a></p>
+        </ul>
+     </div>
+    </footer>
 <script src='js/app.js'></script>
 <script src='js/controller.js'></script>
-<script src='js/service.js'></script>
 </body>
 </html>

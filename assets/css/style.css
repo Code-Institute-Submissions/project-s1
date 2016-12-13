@@ -25,10 +25,22 @@ html, body
 } 
 
 #songs
+{
+ padding-left: 96px;
+ padding-right: 96px;
+}
 
 #gallery
+{
+ padding-left: 96px;
+ padding-right: 96px;
+}
 
 #bookings
+{
+ padding-left: 96px;
+ padding-right: 96px;
+}
 
 /*Header image*/
 
@@ -115,13 +127,14 @@ li a:hover
 
 /*Band bio*/
 
-figure
+#
 {
  width: 25%;
- float: left;
+ float: ;
  margin: 0;
  font-style: italic;
  text-align: center;
+ color: : black;
  padding: 16px;
 }
 
@@ -143,4 +156,13 @@ section div
   height: 20vw;
   margin: 1%;
   width: 23%;
+}
+
+.g1
+{
+ margin: -1%;
+ padding: 55px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
 }

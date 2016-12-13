@@ -149,15 +149,26 @@ li a:hover
 }
 
 
+a.thumbnail
+{
+ text-decoration: none;
+}
 
+.pasteventstext
+{
+ padding-right: 49px;
+}
+
+
+/*songs*/
 
 .w {
   overflow: hidden;
 }
 
 
-
-section {
+section 
+{
   margin: -1%;
   padding: 20px;
   display: block;
@@ -174,11 +185,4 @@ section div
   width: 23%;
 }
 
-.g1
-{
- margin: -1%;
- padding: 55px;
- display: block;
- margin-left: auto;
- margin-right: auto;
-}
+

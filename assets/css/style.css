@@ -28,9 +28,8 @@ html, body
 
 #songs
 {
- padding-left: 79px;
+ padding-left: 96px;
  padding-right: 96px;
- padding-bottom: 40px;
 }
 
 #gallery
@@ -135,34 +134,40 @@ li a:hover
  display: inline-block;
  margin-left: auto;
  margin-right: auto;
- padding-right: 100px;
+ padding-right: 63px;
 }
 
 /*Songs*/
 
-.biotext1
+p.biotext1
 {
  color: black;
  font-style: italic;
+ text-align: center;
 }
 
-.biotext2
+p.biotext2
 {
  color: black;
+ text-align: center;
 }
 
+img.songimg
+{
+ text-align: center; 
+}
 
 a.thumbnail
 {
  text-decoration: none;
- border-style: 0;
+ border-style: none;
  border-radius: none; 
 }
 
 a.thumbnail:hover 
 { 
  outline: none;
- outline-style: 0; 
+ outline-style: none; 
  outline-color: black;
 }
 
@@ -180,9 +185,10 @@ a.thumbnail:hover
  padding-bottom: 10px;
 }
 
-div.col-md-12
+.col-md-12
 {
  display: inline-block;
+ text-align: center;
  margin-left: auto;
  margin-right: auto;
  padding-right: 100px;
@@ -197,6 +203,14 @@ div.col-md-12
 {
  text-align: right;
  float: right;
+}
+
+.col-lg-3 
+{
+ text-align: center;
+ display:block;
+ padding-bottom: 20px;
+ padding-right:50px;
 }
 
 

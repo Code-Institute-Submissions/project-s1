@@ -52,7 +52,7 @@ html, body
  height: auto;
  padding-top: 1px;
  padding-right: 100%;
- padding-left: 6%;
+ padding-left: 3%;
  left: 0px;
  right: 0px;
 }
@@ -64,6 +64,11 @@ html, body
  height: auto;
  left: 0px;
  right: 0px;
+}
+
+.imgsize
+{
+ height: 214px;
 }
 
 
@@ -109,8 +114,6 @@ html, body
  top: -14px;
  right: 0px;
 }
-
-
 
 
 /*Footer*/
@@ -248,6 +251,37 @@ a.thumbnail:hover
  display:block;
  padding-bottom: 20px;
  padding-right:50px;
+}
+
+/*Pagetext*/
+
+.homehistorytext
+{
+ padding-bottom: 15px;
+}
+
+.pasteventtext
+{
+ padding-bottom: 15px;
+}
+
+.bottomtexthome
+{
+ padding-bottom: 15px;
+
+}
+
+
+
+
+h4
+{
+ text-align: center;
+}
+
+p
+{
+ text-align: center;
 }
 
 

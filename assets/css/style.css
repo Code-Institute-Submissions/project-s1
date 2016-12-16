@@ -49,26 +49,14 @@ html, body
 #banner
 {
  max-width: 100%;
- height: auto;
- padding-top: 1px;
- padding-right: 100%;
- padding-left: 3%;
- left: 0px;
- right: 0px;
+ max-height: auto;
 }
 
-#bg
+.imgwrapper 
 {
- display: block;
  width: 100%;
- height: auto;
- left: 0px;
- right: 0px;
-}
-
-.imgsize
-{
- height: 214px;
+ height: 50%;
+ padding-left: 5%;
 }
 
 
@@ -270,8 +258,6 @@ a.thumbnail:hover
  padding-bottom: 15px;
 
 }
-
-
 
 
 h4

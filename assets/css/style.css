@@ -286,6 +286,12 @@ a.thumbnail:hover
  padding-bottom: 2%;
 }
 
+.aboutustext
+{
+ text-align: center;
+ padding-bottom: 15px;	
+}
+
 
 /*Terms and conditions*/
 .tandcheader2
@@ -294,6 +300,11 @@ a.thumbnail:hover
 }
 
 .tandcheader3
+{
+ text-align: center;
+}
+
+.tandctext
 {
  text-align: center;
 }
@@ -352,7 +363,7 @@ a.thumbnail:hover
 
 .footerimg
 {
- padding-top: 20px;
+ padding-top: 5px;
  width: 30%;
  height: 30%;
 }

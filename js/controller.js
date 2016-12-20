@@ -13,4 +13,11 @@ angular.module('RouteControllers', [])
     })
     .controller('BookingsController', function($scope) {
         $scope.title = "bookings"
+    })
+    .controller('AboutusController', function($scope) {
+        $scope.title = "about us"
+    })
+    .controller('Terms&conditionsController', function($scope) {
+        $scope.title = "terms & conditions"
+
     });

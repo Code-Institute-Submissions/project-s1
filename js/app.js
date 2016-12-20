@@ -20,6 +20,14 @@ angular.module('AppS1').config(function($routeProvider) {
     })
     .when('/bookings', {
         templateUrl: 'templates/bookings.html',
-        controller: 'BookingsController'      
+        controller: 'BookingsController' 
+    })
+    .when('/about us', {
+        templateUrl: 'templates/about us.html',
+        controller: 'AboutusController'
+    })
+    .when('/terms & conditions', {
+        templateUrl: 'templates/terms & conditions.html',
+        controller: 'Terms&conditionsController'
     });
 });

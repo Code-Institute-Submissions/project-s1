@@ -1,4 +1,16 @@
 
+/*Top padding for all pages*/
+
+.Ab
+{
+ padding-top: 59px;
+ padding-left: 100px;
+ padding-right: 100px;
+}
+
+
+/*Page padding*/
+
 html, body
 {
  margin: 0;
@@ -12,37 +24,49 @@ html, body
  max-height: 100%;
 }
 
-/*Page padding*/
 
-#home
-{
- padding-left: 96px;
- padding-right: 96px;
-} 
+/*Pagetext*/
 
-#events
+.hometoptext
 {
- padding-left: 96px;
- padding-right: 96px;
-} 
-
-#songs
-{
- padding-left: 96px;
- padding-right: 96px;
+ padding-bottom: 15px;
 }
 
-#gallery
+.homebottomtext
 {
- padding-left: 96px;
- padding-right: 96px;
+ padding-bottom: 15px;
 }
 
-#bookings
+.eventsbottomtext
 {
- padding-left: 96px;
- padding-right: 96px;
+ padding-bottom: 15px;
 }
+
+.songstext
+{
+ padding-bottom: 15px;
+}
+
+.thumbnail img /*for gallery*/
+{
+ padding-bottom: 15px;	
+}
+
+.tancbottomtext
+{
+ padding-bottom: 15px;	
+}
+
+h4
+{
+ text-align: center;
+}
+
+p
+{
+ text-align: center;
+}
+
 
 /*Header image*/
 
@@ -72,7 +96,6 @@ html, body
  padding-top: 10px;
  padding-right:44%;
  float:right;
-
 }
 
 .navbar-inverse
@@ -84,47 +107,16 @@ html, body
 {
  width: 100%;
  position: relative;
- padding-left: 34%;
- 
-}
+ padding-left: 449px;
+ }
 
-
-/*Image header link*/
-
-.ba
-{
- max-height: 160%;
- max-width: 300%;
- border: 10%;
- position: right;
- position: relative;
- text-align: center;
- top: -14px;
- right: 0px;
-}
-
-
-/*Footer*/
-
-#footer
-{
- position:relative;
- left:0px;
- bottom:0px;
- height:120px;
- width:100%;
- background:#222;
- vertical-align: bottom;
-}
-
-ul  
+ ul  
 {
  list-style-type: none;
  margin: 0;
  padding: 0;
  text-align: center;
  overflow: hidden;
- background-color: #222;
 }
 
 li 
@@ -147,41 +139,49 @@ li a:hover
  background-color: #222;
 }
 
-.footers_list
+
+/*Image header link*/
+
+img.ba
 {
- height: 0px;
+ max-height: 160%;
+ max-width: 300%;
+ border: 10%;
+ position: right;
+ position: relative;
+ padding-left: 23%;
+ top: -14px;
+ right: 0px;
 }
 
-.btn-primary
+.col-lg-6
 {
- background-color: grey;
- border-color: grey;
+ 
+ margin-left: auto;
+ margin-right: auto;
+ padding-right: 10px;
+ padding-bottom: 10px;
 }
 
-/*Top padding for events, songs, gallery, & bookings page*/
 
-.Ab
-{
- padding-top: 59px;
-}
-
-/*Band bio*/
+/*Band bio images & Gallery*/
 
 .col-lg-12
 {
  display: inline-block;
  margin-left: auto;
  margin-right: auto;
- padding-right: 63px;
+ padding-right: 108px;
 }
 
-/*Songs*/
 
+/*Songs*/
 
 .col-md-12.boxpadding
 {
  padding-top: 0%;
  padding-bottom: 1%;
+ padding-right: 11%;
 }
 
 p.biotext1
@@ -200,6 +200,7 @@ p.biotext2
 img.songimg
 {
  text-align: center; 
+ padding-left: 10px;
 }
 
 a.thumbnail
@@ -216,20 +217,21 @@ a.thumbnail:hover
  outline-color: black;
 }
 
+.col-md-3.songsbox
+{
+ float: right;
+}
+
+
+/*Events*/
 
 .pasteventstext
 {
  padding-right: 49px;
 }
 
-.col-lg-6
-{
- display: inline-block;
- margin-left: auto;
- margin-right: auto;
- padding-right: 10px;
- padding-bottom: 10px;
-}
+
+/*Bookings*/
 
 .col-md-12
 {
@@ -242,54 +244,45 @@ a.thumbnail:hover
  padding-bottom: 5%;
 }
 
-
-/*Searchbox*/
-
-.col-md-3
+.btn-primary 
 {
- text-align: right;
- float: right;
+ color: #fff;
+ background-color: grey;
+ border-color: grey;
 }
 
-.col-lg-3 
+.btn-primary:hover 
+{
+ color: #fff;
+ background-color: #222;
+ border-color: grey;
+}
+
+/*About us*/
+
+.aboutimg
 {
  text-align: center;
- display:block;
- padding-bottom: 20px;
- padding-right:50px;
-}
-
-/*Pagetext*/
-
-.homehistorytext
-{
- padding-bottom: 15px;
-}
-
-.pasteventtext
-{
- padding-bottom: 15px;
-}
-
-.bottomtexthome
-{
- padding-bottom: 15px;
-
+ padding-bottom: 2%;
 }
 
 
-h4
+/*Terms and conditions*/
+.tandcheader2
 {
  text-align: center;
 }
 
-p
+.tandcheader3
 {
  text-align: center;
 }
+
+
+/*Footer*/
 
 .footer-bs {
-    background-color: #3c3d41;
+    background-color: #222;
 	padding: 10px 40px;
 	padding-top: 0px;
 	color: rgba(255,255,255,1.00);
@@ -301,8 +294,8 @@ p
 
 .footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
 .footer-bs .footer-nav ul.pages li { padding:5px 0px;}
-.footer-bs .footer-nav ul.pages a { color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase; }
-.footer-bs .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+.footer-bs .footer-nav ul.pages a { color: grey; font-weight:bold; text-transform:uppercase; }
+.footer-bs .footer-nav ul.pages a:hover { color: white; text-decoration:none; }
 .footer-bs .footer-nav h4 {
 	font-size: 11px;
 	text-transform: uppercase;
@@ -312,8 +305,8 @@ p
 
 .footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
 .footer-bs .footer-nav ul.list li { padding:5px 0px;}
-.footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
-.footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
+.footer-bs .footer-nav ul.list a { color: grey; }
+.footer-bs .footer-nav ul.list a:hover { color: white; text-decoration:none; }
 
 .footer-bs .footer-social ul { list-style:none; padding:0px; }
 .footer-bs .footer-social h4 {
@@ -322,8 +315,8 @@ p
 	letter-spacing: 3px;
 }
 .footer-bs .footer-social li { padding:5px 4px;}
-.footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
-.footer-bs .footer-social a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+.footer-bs .footer-social a { color: grey;}
+.footer-bs .footer-social a:hover { color:white; text-decoration:none; }
 
 .footer-bs .footer-ns h4 {
 	font-size: 11px;
@@ -336,6 +329,9 @@ p
 @media (min-width: 768px) {
 	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
 }
+
+
+
 
 
 

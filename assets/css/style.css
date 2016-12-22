@@ -24,7 +24,6 @@ html, body
  max-height: 100%;
 }
 
-
 /*Pagetext*/
 
 .hometoptext
@@ -179,6 +178,13 @@ img.ba
  padding-right: 108px;
 }
 
+.biotext1 
+{
+ color: #333;
+ font-style: italic;
+ text-align: center;
+ font-size: 15px;
+}
 
 /*Events*/
 
@@ -188,6 +194,13 @@ img.ba
  text-align: center;
 }
 
+.eventstext1
+{
+ color: #333;
+ font-style: italic;
+ text-align: center;
+ font-size: 15px;
+}
 
 /*Songs*/
 
@@ -198,19 +211,13 @@ img.ba
  padding-right: 11%;
 }
 
-p.biotext1
+.songstext1
 {
- color: black;
+ color: #333;
  font-style: italic;
  text-align: center;
- padding-right: 20px;
-}
-
-p.biotext2
-{
- color: black;
- text-align: center;
- padding-right: 20px;
+ font-size: 15px;
+ padding-right: 13%;
 }
 
 .songstext
@@ -248,7 +255,6 @@ a.thumbnail:hover
  float: right;
  padding-right: 2%;
 }
-
 
 
 /*Bookings*/
@@ -369,8 +375,417 @@ a.thumbnail:hover
 }
 
 
+@media (max-width: 990px){
+
+
+/*Top padding for all pages*/
+
+.Ab
+{
+ padding-top: 59px;
+ padding-left: 100px;
+ padding-right: 100px;
+}
+
+
+/*Page padding*/
+
+html, body
+{
+ margin: 0;
+ margin-bottom: 0;
+ min-width: 100%;
+ width: 100%;
+ max-width: 100%;
+
+ min-height: 100%;
+ height: 100%;
+ max-height: 100%;
+}
+
+
+/*Pagetext*/
+
+.hometoptext
+{
+ padding-bottom: 15px;
+}
+
+.homebottomtext
+{
+ padding-bottom: 15px;
+ padding-left: 15%;
+}
+
+.eventsbottomtext
+{
+ padding-bottom: 15px;
+ text-align: center;
+}
+
+.songstext
+{
+ padding-bottom: 15px;
+}
+
+.thumbnail img /*for gallery*/
+{
+ padding-bottom: 15px;	
+}
+
+.tancbottomtext
+{
+ padding-bottom: 15px;	
+}
+
+h4
+{
+ text-align: center;
+}
+
+h5
+{
+ text-align: center;
+}
+
+p
+{
+ text-align: center;
+}
+
+
+/*Header image*/
+
+#banner
+{
+ max-width: 100%;
+ max-height: auto;
+}
+
+.imgwrapper 
+{
+ width: 100%;
+ height: 50%;
+ padding-left: 0%;
+}
+
+
+/*Navbar*/
+
+.container1
+{
+ width: 100%;
+}
+
+.navbar-header 
+{
+ padding-top: 10px;
+ padding-right:44%;
+ float:right;
+}
+
+.navbar-inverse
+{
+ width: 100%;
+}
+
+.navbar-right
+{
+ width: 100%;
+ position: relative;
+ padding-left: 300px;
+ }
+
+ ul  
+{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ text-align: center;
+ overflow: hidden;
+}
+
+li 
+{
+ display: inline-block;
+}
+
+li a 
+{
+ display: block;
+ color: grey;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+li a:hover 
+{
+ color: white;
+ background-color: #222;
+}
+
+
+/*Image header link*/
+
+img.ba
+{
+ max-height: 160%;
+ max-width: 300%;
+ border: 10%;
+ position: right;
+ position: relative;
+ padding-left: 45%;
+ top: -14px;
+ right: 0px;
+}
+
+.col-lg-6
+{
+ 
+ margin-left: auto;
+ margin-right: auto;
+ padding-right: 10px;
+ padding-bottom: 10px;
+}
+
+
+/*Band bio images & Gallery*/
+
+.col-lg-12
+{
+ display: inline-block;
+ margin-left: auto;
+ margin-right: auto;
+ padding-right: 108px;
+}
+
+.bioimgsize
+{
+ width:100%;
+ height:100%;
+ padding-left: 90px;
+}
+
+.biotext1 
+{
+ color: #333;
+ font-style: italic;
+ text-align: center;
+ font-size: 15px;
+ padding-left: 34%;
+}
+
+
+/*Events*/
+
+.pasteventstext
+{
+ text-align: center;
+}
+
+.eventstext1
+{
+ color: #333;
+ font-style: italic;
+ text-align: center;
+ font-size: 15px;
+}
+
+.eventimg
+{
+ padding-left: 14%;
+}
+
+/*Songs*/
+
+.col-md-12.boxpadding
+{
+ padding-top: 0%;
+ padding-bottom: 1%;
+ padding-right: 11%;
+}
+
+.songstext
+{
+ padding-left: 24%;
+}
+
+.songstext1
+{
+ color: #333;
+ font-style: italic;
+ text-align: center;
+ font-size: 14px;
+ padding-left: 30%;
+}
+
+.tracksong
+{
+padding-left: 25%; 
+
+}
+
+.songlinktext
+{	
+ 
+}
+
+img.songimg
+{
+ text-align: center; 
+ padding-left: 24%;
+}
+
+a.thumbnail
+{
+ text-decoration: none;
+ border-style: none;
+ border-radius: none; 
+}
+
+a.thumbnail:hover 
+{ 
+ outline: none;
+ outline-style: none; 
+ outline-color: black;
+}
+
+.songsbox2
+{
+ float:right;
+ padding-right:12%; 
+}
+
+
+/*Bookings*/
+
+.col-md-12
+{
+ display: inline-block;
+ text-align: center;
+ margin-left: 0;
+ margin-right: 0;
+ padding-right: 100px;
+ padding-top: 1%;
+ padding-bottom: 5%;
+}
+
+.btn-primary 
+{
+ color: #fff;
+ background-color: grey;
+ border-color: grey;
+}
+
+.btn-primary:hover 
+{
+ color: #fff;
+ background-color: #222;
+ border-color: grey;
+}
+
+/*About us*/
+
+.aboutimg
+{
+ text-align: center;
+ padding-bottom: 2%;
+}
+
+.aboutustext
+{
+ text-align: center;
+ padding-bottom: 15px;	
+}
+
+
+/*Terms and conditions*/
+.tandcheader2
+{
+ text-align: center;
+}
+
+.tandcheader3
+{
+ text-align: center;
+}
+
+.tandctext
+{
+ text-align: center;
+}
+
+
+/*Footer*/
+
+.footer-bs {
+    background-color: #222;
+	padding: 10px 40px;
+	padding-top: 0px;
+	color: rgba(255,255,255,1.00);
+}
+.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+.footer-bs .footer-brand h2 { margin:0px 0px 10px; }
+.footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bs .footer-nav ul.pages a { color: grey; font-weight:bold; text-transform:uppercase; }
+.footer-bs .footer-nav ul.pages a:hover { color: white; text-decoration:none; }
+.footer-bs .footer-nav h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+}
+
+.footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.list li { padding:5px 0px;}
+.footer-bs .footer-nav ul.list a { color: grey; }
+.footer-bs .footer-nav ul.list a:hover { color: white; text-decoration:none; }
+
+.footer-bs .footer-social ul { list-style:none; padding:0px; }
+.footer-bs .footer-social h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.footer-bs .footer-social li { padding:5px 4px;}
+.footer-bs .footer-social a { color: grey;}
+.footer-bs .footer-social a:hover { color:white; text-decoration:none; }
+
+.footer-bs .footer-ns h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+}
+.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+@media (min-width: 768px) {
+	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 0px rgba(255,255,255,0.10); }
+}
+
+.footerimg
+{
+ padding-top: 5px;
+ padding-left: 14px;
+ width: 10%;
+ height: 10%;
+}
+
+}
+
+@media (max-width: 767px){
 
 
 
+}
+
+@media (max-width: 479px){
 
 
+
+}

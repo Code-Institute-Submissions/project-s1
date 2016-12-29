@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html ng-app='AppS1'>
+<!doctype html>
+<html data-ng-app="AppS1">
 <head>
     <title>The Monkees</title>
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -9,8 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style type="text/css">
         body {
-         padding-top: 51px;
-         padding-bottom: 51px;            
+         padding-top: 51px;            
         }
     </style>
 </head>
@@ -22,7 +21,7 @@
      <div class="container1">
           <div class="navbar-header">
               <a class="navbar-brand" href="#/">
-                <img class="ba" src="/assets/images/themonkeeslogo.png"></img>
+                <img class="ba" src="/assets/images/themonkeeslogo.png" alt="">
               </a>
           </div>
             <ul class="nav navbar-nav navbar-right">
@@ -38,7 +37,7 @@
 
     <!--Main content and injected views-->
     <div id="main">
-        <div ng-view>
+        <div data-ng-view>
  
         </div>
     </div>
@@ -46,7 +45,7 @@
     <footer class="footer-bs">
         <div class="row">
           <div class="col-md-3 footer-brand animated fadeInLeft">
-              <h5><img src="/assets/images/themonkeeslogofooter.png" class="footerimg"></img></h5>
+              <h5><img class="footerimg" src="/assets/images/themonkeeslogofooter.png" alt=""></h5>
                 <p>Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur vehicula, libero eget faucibus faucibus, purus erat eleifend enim, porta pellentesque ex mi ut sem</p>
                 <p>© 2016 All rights reserved Support: Support@MarkW.com</p>
             </div>
@@ -63,9 +62,9 @@
                 </div>
               <div class="col-md-6">
                     <ul class="list">
-                        <li><a href="#/about us">About Us</a></li>
+                        <li><a href="#/about%20us">About Us</a></li>
                         <li><a href="#">Contacts</a></li>
-                        <li><a href="#/terms & conditions">Terms & Conditions</a></li>
+                        <li><a href="#/terms%20&%20conditions">Terms & Conditions</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                     </ul>
                 </div>
@@ -88,13 +87,11 @@
                       <span class="input-group-btn">
                         <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
                       </span>
-                    </div>
-                  </div>
-                 </p>
+                   </div>
+                </div>
             </div>
         </div>
     </footer>
-</div>
 
 <script src='js/app.js'></script>
 <script src='js/controller.js'></script>

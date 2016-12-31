@@ -17,7 +17,12 @@ angular.module('RouteControllers', [])
     .controller('AboutusController', function($scope) {
         $scope.title = "about us"
     })
+    .controller('ContactsController', function($scope) {
+        $scope.title = "contacts"
+    })
     .controller('Terms&conditionsController', function($scope) {
         $scope.title = "terms & conditions"
-
+    })
+    .controller('PrivacypolicyController', function($scope) {
+        $scope.title = "privacy policy"
     });

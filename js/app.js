@@ -26,8 +26,17 @@ angular.module('AppS1').config(function($routeProvider) {
         templateUrl: 'templates/about us.html',
         controller: 'AboutusController'
     })
+    .when('/contacts', {
+        templateUrl: 'templates/contacts.html',
+        controller: 'ContactsController'
+    })
     .when('/terms & conditions', {
         templateUrl: 'templates/terms & conditions.html',
         controller: 'Terms&conditionsController'
+    })   
+    .when('/privacy policy', {
+        templateUrl: 'templates/privacy policy.html',
+        controller: 'PrivacypolicyController'
     });
 });
+

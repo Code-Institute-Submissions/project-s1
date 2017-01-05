@@ -319,7 +319,6 @@ a.thumbnail:hover
  border-color: grey;
 }
 
-
 /*Footer*/
 
 .footer-bs {
@@ -369,6 +368,21 @@ a.thumbnail:hover
 
 @media (min-width: 768px) {
 	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 0px rgba(255,255,255,0.10); }
+}
+
+.input-group-btn .btn
+{
+ z-index: 2;
+ margin-left: -1px;
+ background-color: #D3D3D3;
+ border-color: #D3D3D3;
+}
+
+.input-group-btn .btn span:hover
+{
+ z-index: 2;
+ margin-left: -1px;
+ color: white;
 }
 
 .footerimg
@@ -875,6 +889,21 @@ div.searchbox
 	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 0px rgba(255,255,255,0.10); }
 }
 
+.input-group-btn .btn
+{
+ z-index: 2;
+ margin-left: -1px;
+ background-color: #D3D3D3;
+ border-color: #D3D3D3;
+}
+
+.input-group-btn .btn span:hover
+{
+ z-index: 2;
+ margin-left: -1px;
+ color: white;
+}
+
 .footerimg
 {
  padding-top: none;
@@ -1327,10 +1356,7 @@ div.searchbox
 
 .col-md-12
 {
- display: inline-block;
- text-align: center;
- margin-left: 0;
- margin-right: 0;
+ display: block;
  padding-left: 17%;
  padding-top: 1%;
  padding-bottom: 5%;
@@ -1352,7 +1378,7 @@ div.searchbox
 
 .submitbtn
 {
- padding-left: 11.3%;
+ padding-right: 13%;
 }
 
 .well well-sm .col-md-6
@@ -1410,6 +1436,21 @@ div.searchbox
 
 @media (min-width: 768px) {
 	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 0px rgba(255,255,255,0.10); }
+}
+
+.input-group-btn .btn
+{
+ z-index: 2;
+ margin-left: -1px;
+ background-color: #D3D3D3;
+ border-color: #D3D3D3;
+}
+
+.input-group-btn .btn span:hover
+{
+ z-index: 2;
+ margin-left: -1px;
+ color: white;
 }
 
 .footerimg
@@ -1923,7 +1964,7 @@ div.searchbox
 
 .submitbtn
 {
- padding-right: 5.6%;
+ padding-right:32%;
 }
 
 .well well-sm .col-md-6
@@ -1981,6 +2022,21 @@ div.searchbox
 
 @media (min-width: 768px) {
 	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 0px rgba(255,255,255,0.10); }
+}
+
+.input-group-btn .btn
+{
+ z-index: 2;
+ margin-left: -1px;
+ background-color: #D3D3D3;
+ border-color: #D3D3D3;
+}
+
+.input-group-btn .btn span:hover
+{
+ z-index: 2;
+ margin-left: -1px;
+ color: white;
 }
 
 .footerimg

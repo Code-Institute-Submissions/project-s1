@@ -245,6 +245,7 @@ img.ba
 .songstext
 {
  padding-right: 20px;
+ padding-bottom: 24px;
 }
 
 .songlinktext
@@ -277,6 +278,13 @@ a.thumbnail:hover
  float: right;
  padding-left: 4%;
  padding-right: 1%
+}
+
+audio
+{
+ display: inline-block;
+ vertical-align: baseline;
+ padding-bottom: 28%;
 }
 
 /*Gallery*/
@@ -662,8 +670,11 @@ img.ba
 .tracksong
 {
  display: inline-block;
- font-size: 13.5px;
+ font-size: 12.3px;
  text-align: center;
+ padding:4.2%;
+ padding-top: 0%;
+ padding-bottom: 0%
 }
 
 .songheadtext
@@ -680,7 +691,9 @@ img.ba
 
 .songstext
 {
- padding-left: 13%;
+ padding-left: 16%;
+ font-size: 10.4px;
+ padding-bottom: 16%;
 }
 
 .songstext1
@@ -717,7 +730,7 @@ img.ba
 {
 display: inline-block;
 vertical-align: baseline;
-width: 110%;
+width: 99%;
 }
 
 .col-md-4 .songimg

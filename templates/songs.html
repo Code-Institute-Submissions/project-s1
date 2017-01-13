@@ -21,50 +21,18 @@
                   </form>
                 </div>
               </div>
-
+   
+   
     <div class="container">
       <div class="row">
        <div class="songsimagecase">
         <div class="col-lg-12">
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <img src="/assets/images/album1.jpg" class="songimg"/><p class="songstext1"><p class="tracksong">Track 1 - Clarksville
-          <audio class src="/assets/audio/Clarksville.mp3" controls></p><p class="songstext1">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p><a href="https://itunes.apple.com/gb/artist/the-monkees/id4512388"><p class="songstext">Purchase on itunes</p>
-          </a> 
+        <div class="col-lg-3 col-md-4 col-sm-6" ng-repeat="single in singles">
+          <img ng-src="{{single.cover}}" class="songimg"/><p class="songstext1"><p class="tracksong" ng-bind="single.name">
+          </p><p class="songstext1">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+          <a href="https://itunes.apple.com/gb/artist/the-monkees/id4512388"><p class="songstext">Purchase on itunes</p>
+          </a><audio ng-src="{{single.track}}" controls> 
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <img src="/assets/images/album2.jpg" class="songimg"/><p class="songstext1"><p class="tracksong">Track 2 - Daydream beliver
-          <audio src="assets/audio/DaydreamBeliever.mp3" controls></p><p class="songstext1">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p><a href="https://itunes.apple.com/gb/artist/the-monkees/id4512388"><p class="songstext">Purchase on itunes</p>
-          </a>
-          </a>
-        </div>
-         <div class="col-lg-3 col-md-4 col-sm-6">
-          <img src="/assets/images/album3.jpg" class="songimg"/><p class="songstext1" align="center"><p class="tracksong">Track 3 - I am a beliver 
-          <audio src="assets/audio/ImABeliever.mp3" controls></p><p class="songstext1">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p><a href="https://itunes.apple.com/gb/artist/the-monkees/id4512388"><p class="songstext">Purchase on itunes</p>
-          </a>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <img src="/assets/images/album4.jpg" class="songimg"/><p class="songstext1"><p class="tracksong">Track 4 - Stepping stone
-          <audio src="assets/audio/SteppingStone.mp3" controls></p><p class="songstext1">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p><a href="https://itunes.apple.com/gb/artist/the-monkees/id4512388"><p class="songstext">Purchase on itunes</p>
-          </a>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <img src="/assets/images/album5.jpg" class="songimg"/><p class="songstext1">Album 1 - Headquarters</p><p class="songstext1">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p><a href="https://itunes.apple.com/gb/artist/the-monkees/id4512388"><p class="songstext">Purchase on itunes</p>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <img src="/assets/images/album6.jpg" class="songimg"/><p class="songstext1">Album 2 - Good Times</p><p class="songstext1">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p><a href="https://itunes.apple.com/gb/artist/the-monkees/id4512388"><p class="songstext">Purchase on itunes</p>
-          </a>
-        </div>
-         <div class="col-lg-3 col-md-4 col-sm-6">
-          <img src="/assets/images/album7.jpg" class="songimg"/><p class="songstext1">Album 3 - Missing Links</p><p class="songstext1">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p><a href="https://itunes.apple.com/gb/artist/the-monkees/id4512388"><p class="songstext">Purchase on itunes</p>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <img src="/assets/images/album8.jpg" class="songimg"/><p class="songstext1">Album 4 - Instant Replay</p><p class="songstext1">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p><a href="https://itunes.apple.com/gb/artist/the-monkees/id4512388"><p class="songstext">Purchase on itunes</p>
-          </a>
-       </div>
        </div>
       </div>
      </div>

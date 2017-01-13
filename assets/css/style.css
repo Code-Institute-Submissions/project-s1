@@ -670,16 +670,13 @@ img.ba
 .tracksong
 {
  display: inline-block;
- font-size: 12.3px;
+ font-size: 12px;
  text-align: center;
- padding:4.2%;
- padding-top: 0%;
- padding-bottom: 0%
 }
 
 .songheadtext
 {
- padding-right: 1%;
+ padding-left: 0.6%;
 }
 
 .col-md-12.boxpadding
@@ -691,9 +688,9 @@ img.ba
 
 .songstext
 {
- padding-left: 16%;
- font-size: 10.4px;
- padding-bottom: 16%;
+ padding-left: 13%;
+ font-size: 10px;
+ padding-bottom: 24px;
 }
 
 .songstext1
@@ -730,17 +727,22 @@ img.ba
 {
 display: inline-block;
 vertical-align: baseline;
-width: 99%;
+width: 100%;
+margin-left: 2%;
+padding-bottom: 50px;
 }
 
 .col-md-4 .songimg
 {
- width: 120px;	
+ width: 145px;
+ height: 120px;
+ padding-right: 1%;
+ margin-left: -8px	
 }
 
 .spacingsongs .row
 {
- margin-right: -60px;
+ margin-right: -40px;
  margin-left: -50px
 }
 
@@ -785,7 +787,7 @@ a.thumbnail:hover
 .col-md-12.boxpadding
 {
  float: right;
- padding-right: 17%;
+ padding-right: 12.6%;
 }
 
 div.searchbox
@@ -975,7 +977,7 @@ html, body
 
 .homeheadertext
 {
- padding-right: 2%;
+ padding-right: 6%;
 }
 
 .hometoptext
@@ -1151,8 +1153,8 @@ img.ba
  font-style: italic;
  text-align: center;
  font-size: 13px;
- margin-left: -22%;
- margin-right: -22%;
+ margin-left: -10%;
+ margin-right: -10%;
 }
 
 .bioimagecase .col-md-4
@@ -1225,8 +1227,9 @@ img.ba
 .tracksong
 {
  display: inline-block;
- font-size: 11px;
+ font-size: 9.4px;
  text-align: center;
+ margin-left: 5%;
 }
 
 .songheadtext
@@ -1243,7 +1246,7 @@ img.ba
 
 .songstext
 {
- padding-left: 13%;
+ padding-left: 18%;
 }
 
 .songstext1
@@ -1251,7 +1254,7 @@ img.ba
  color: #333;
  font-style: italic;
  text-align: center;
- font-size: 13px;
+ font-size: 12.5px;
  padding-top: 8%;
  padding-left: 14%;
  margin-left: -27%;
@@ -1278,16 +1281,18 @@ img.ba
 
 .songsimagecase audio
 {
-display: inline-block;
-vertical-align: baseline;
-width: 110%;
+ display: inline-block;
+ vertical-align: baseline;
+ width: 95%;
+ margin-left: 4%
 }
 
 .col-md-4 .songimg
 {
  width: 145px;
  height: 85px;
- padding-right: 45%;	
+ padding-right: 45%;
+ margin-left: 1%	
 }
 
 .spacingsongs .row
@@ -1330,14 +1335,14 @@ a.thumbnail:hover
 .col-md-3
 {
  float: right;
- padding-left: 4%;
- padding-right: 1%
+ padding-right: 3%;
+ margin-left: 21%;
 }
 
 .col-md-12.boxpadding
 {
  float: right;
- padding-right: 17%;
+ padding-right: 16%;
 }
 
 div.searchbox
@@ -1408,7 +1413,7 @@ div.searchbox
 	padding-top: 0px;
 	color: rgba(255,255,255,1.00);
 }
-.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
+.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; margin-left: 1%; }
 .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
 .footer-bs .footer-brand h2 { margin:0px 0px 10px; }
 .footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
@@ -1547,7 +1552,7 @@ html, body
 
 .songstext
 {
- padding-bottom: 15px;
+ padding-bottom: 22px;
 }
 
 .thumbnail img /*for gallery*/
@@ -1795,6 +1800,7 @@ img.ba
  display: inline-block;
  font-size: 11px;
  text-align: center;
+ padding-left: 32px;
 }
 
 .songheadtext
@@ -1812,6 +1818,9 @@ img.ba
 .songstext
 {
  margin-left: 30%;
+ font-size: 12px;
+ display: inline-block;
+ padding-left:25%;
 }
 
 .songstext1
@@ -1859,7 +1868,7 @@ img.ba
 
 .spacingsongs .row
 {
- margin-right: -30px;
+ margin-right: -14px;
  margin-left: -50px;
 }
 

@@ -1,12 +1,12 @@
 angular.module('RouteControllers', [])
-    .controller('HomeController', function($scope) {
+    .controller('HomeController', function($scope, $http) {
         $scope.title = "home"
     })
-    .controller('EventsController', function($scope) {
+    .controller('EventsController', function($scope, $http) {
         $scope.title = "events"
     })
-    .controller('SongsController', function($scope) {
-        $scope.title = "songs"
+    .controller('SongsController', function($scope, $http) {
+        $scope.title = "songs" 
         $scope.singles = [
             {
              name: "1. Clarksville (New)",
@@ -59,21 +59,22 @@ angular.module('RouteControllers', [])
 
     })
 
-    .controller('GalleryController', function($scope) {
+    .controller('GalleryController', function($scope, $http) {
         $scope.title = "gallery"
     })
-    .controller('BookingsController', function($scope) {
+    .controller('BookingsController', function($scope, $http) {
         $scope.title = "bookings"
     })
-    .controller('AboutusController', function($scope) {
+    .controller('AboutusController', function($scope, $http) {
         $scope.title = "about us"
     })
-    .controller('ContactsController', function($scope) {
+    .controller('ContactsController', function($scope, $http) {
         $scope.title = "contacts"
     })
-    .controller('Terms&conditionsController', function($scope) {
+    .controller('Terms&conditionsController', function($scope, $http) {
         $scope.title = "terms & conditions"
     })
-    .controller('PrivacypolicyController', function($scope) {
+    .controller('PrivacypolicyController', function($scope, $http) {
         $scope.title = "privacy policy"
     });
+

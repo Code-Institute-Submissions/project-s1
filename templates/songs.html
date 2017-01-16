@@ -1,33 +1,36 @@
 <!--songs.html-->
 <div id="songs">
- <div class="Ab">
-  <div class="songheadtext">
-   <h4><u>Songs</u></h4>
-     </div>
-      <div class="container">
+  <div class="Ab">
+    <div class="songheadtext">
+      <h4><u>Songs</u></h4>
+        </div>
+          <div class="container">
             <div class="col-md-12 boxpadding">
-                <div class="searchbox">
-                  <form>
-                   <div class="spacingsongs">
+              <div class="searchbox">
+                <form>
+                  <div class="spacingsongs">
                     <div class="row">
                       <div class="col-md-3">
                         <div class="form-group">
-                            <label for="Search">Search music</label>
-                            <input type="text" class="form-control" id="name" placeholder="Search" required="required"/>
+                        
+                          <label for="Search">Search music</label>
+
+                          <input type="text" class="form-control" placeholder="Search"/>
+
                         </div>
-                       </div> 
-                      </div>
+                      </div> 
                     </div>
-                  </form>
-                </div>
+                  </div>
+                </form>
               </div>
+            </div>
    
    
     <div class="container">
       <div class="row">
-       <div class="songsimagecase">
-        <div class="col-lg-12">
-        <div class="col-lg-3 col-md-4 col-sm-6" ng-repeat="single in singles">
+        <div class="songsimagecase">
+          <div class="col-lg-12">
+          <div class="col-lg-3 col-md-4 col-sm-6" ng-repeat="single in singles">
           <img ng-src="{{single.cover}}" class="songimg"/><p class="songstext1"><p class="tracksong" ng-bind="single.name">
           </p><p class="songstext1">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
           <a href="https://itunes.apple.com/gb/artist/the-monkees/id4512388"><p class="songstext">Purchase on itunes</p>

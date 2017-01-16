@@ -83,10 +83,10 @@
                 <p>Subscribe to our newsletter</p>
                    <div class="inputfooter">
                     <div class="input-group">
-                      <input type="email" class="form-control" placeholder="Email...">
-                      <span class="input-group-btn">
-                        <button class="btn btn-default" ng-click="subscribe()" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
-                      </span>
+                      <form name="myForm">
+                        <input type="email" ng-model="email" name="email" required/>
+                        <button type="submit" ng-disabled="form.$invalid">Submit</button>
+                      </form><p> Valid: {{myForm.email.$valid}}</p>
                    </div>
                 </div>
             </div>

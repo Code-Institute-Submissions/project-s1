@@ -9,52 +9,53 @@ angular.module('RouteControllers', [])
         $scope.title = "songs" 
         $scope.singles = [
             {
-             name: "1. Clarksville (New)",
+             name: "Clarksville (New)",
              cover: "/assets/images/album1.jpg",
              track: "/assets/audio/Clarksville.mp3",
             },
 
             {
-             name: "2. Day beliver (New)",
+             name: "Day beliver (New)",
              cover: "/assets/images/album2.jpg",
              track: "/assets/audio/DaydreamBeliever.mp3",
             },
               
             {
-             name: "3. I am a beliver",
+             name: "I am a beliver",
              cover: "/assets/images/album3.jpg",
              track: "/assets/audio/ImABeliever.mp3",
             },
 
             {
-             name: "4. Stepping stone",
+             name: "Stepping stone",
              cover: "/assets/images/album4.jpg",
              track: "/assets/audio/SteppingStone.mp3",
             },
 
             {
-             name: "5. Headquarters",
+             name: "Headquarters",
              cover: "/assets/images/album5.jpg",
              track: "/assets/audio/tailtoddle_lo.mp3",
             },
 
             {
-             name: "6. Good Times",
+             name: "Good Times",
              cover: "/assets/images/album6.jpg",
              track: "/assets/audio/SteppingStone.mp3",
             },
 
             {
-             name: "7. Missing Links",
+             name: "Missing Links",
              cover: "/assets/images/album7.jpg",
              track: "/assets/audio/DaydreamBeliever.mp3",
             },
 
             {
-             name: "8. Instant Replay",
+             name: "Instant Replay",
              cover: "/assets/images/album8.jpg",
              track: "/assets/audio/Clarksville.mp3",
             }
+
         ];
 
     })

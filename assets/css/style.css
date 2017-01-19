@@ -389,7 +389,8 @@ audio
  color: white;
  padding-top: 1.4%;
  background-color: #444;
- border-color: #222;
+ border-color: grey;
+ border-radius: 4px;
 }
 
 .input-group p
@@ -675,7 +676,7 @@ img.ba
 .tracksong
 {
  display: inline-block;
- font-size: 13px;
+ font-size: 10px;
  text-align: center;
 }
 
@@ -920,9 +921,10 @@ div.searchbox
  color: white;
  padding-top: 1.4%;
  background-color: #444;
- border-color: #222;
+ border-color:grey;
  margin: 4%;
  margin-left: 27%;
+ border-radius: 4px;
 }
 
 .input-group p
@@ -1248,6 +1250,7 @@ img.ba
  font-size: 9.4px;
  text-align: center;
  margin-left: 5%;
+ padding-right: 1%;
 }
 
 .songheadtext
@@ -1486,9 +1489,10 @@ div.searchbox
  color: white;
  padding-top: 1.4%;
  background-color: #444;
- border-color: #222;
- margin: 10%;
- margin-left: 2%;
+ border-color: grey;
+ margin: 5%;
+ margin-left: 0%;
+
 }
 
 .input-group p
@@ -2104,7 +2108,7 @@ div.col-md-3.footer-ns.animated.fadeInRight
  color: white;
  padding-top: 1.4%;
  background-color: #444;
- border-color: #222;
+ border-color: grey;
  margin: 5%;
  margin-left: 0%;
 }

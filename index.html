@@ -1,5 +1,5 @@
 <!doctype html>
-<html data-ng-app="AppS1">
+<html data-ng-app='AppS1'>
 <head>
     <title>The Monkees</title>
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -81,12 +81,19 @@
           <div class="col-md-3 footer-ns animated fadeInRight">
               <h4>Newsletter</h4>
                 <p>Subscribe to our newsletter</p>
+                   
                    <div class="inputfooter">
                     <div class="input-group">
-                      <form name="myForm">
-                        <input type="email" ng-model="email" name="email" required/>
-                        <button type="submit" ng-disabled="form.$invalid">Submit</button>
-                      </form><p> Valid: {{myForm.email.$valid}}</p>
+
+                      <div ng-controller= 'MyValCtrl'>
+                      <form>
+                        <div class="form-group">
+                        <input type="email" class="form-control" ng-model="formModel.email" id="email"/>
+                        <button class="btn btn-primary" ng-click="onSubmit()">Submit</button>
+                        </div>
+                      </form>
+                      </div>
+                      
                    </div>
                 </div>
             </div>
@@ -95,5 +102,7 @@
 
 <script src='js/app.js'></script>
 <script src='js/controller.js'></script>
+<script src='js/script.js'></script>
+<script src='js/service.js'></script>
 </body>
 </html>

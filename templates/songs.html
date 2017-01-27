@@ -14,8 +14,18 @@
                         <div class="form-group">
                         
                           <label for="Search">Search music</label>
-
-                          <input type="text" class="form-control" placeholder="Search"/>
+                          <div ng-app="RouteControllers">
+                          <div ng-controller="SongsController">
+                          <input type="text" ng-model="search" class="form-control" placeholder="Search"/>
+                          <table>
+                            <tbody>
+                             <tr ng-repeat="single in singles">
+                              <td>{{single.name}}</td>
+                             </tr>
+                            </tbody>
+                          </table>
+                          </div>
+                          </div>
 
                         </div>
                       </div> 

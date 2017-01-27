@@ -5,17 +5,17 @@ angular.module('RouteControllers', [])
     .controller('EventsController', function($scope, $http) {
         $scope.title = "events"
     })
-    .controller('SongsController', function($scope, $http) {
+    .controller('SongsController', function($scope, $filter) {
         $scope.title = "songs" 
         $scope.singles = [
             {
-             name: "Clarksville (New)",
+             name: "Clarksville",
              cover: "/assets/images/album1.jpg",
              track: "/assets/audio/Clarksville.mp3",
             },
 
             {
-             name: "Day beliver (New)",
+             name: "Day dream beliver",
              cover: "/assets/images/album2.jpg",
              track: "/assets/audio/DaydreamBeliever.mp3",
             },
@@ -55,8 +55,16 @@ angular.module('RouteControllers', [])
              cover: "/assets/images/album8.jpg",
              track: "/assets/audio/Clarksville.mp3",
             }
+          ];
 
-        ];
+        $scope.singles2 = $scope.singles;
+
+        $scope.$watch('search', function(val)
+        {
+
+          $scope.singles = $filter('filter')($scope.singles2, val);
+
+        });
 
     })
 

@@ -958,6 +958,11 @@ p.ng-binding
  padding-left: 23%;
 }
 
+div.validtxt
+{
+ text-align: left;	
+}
+
 }
 
 

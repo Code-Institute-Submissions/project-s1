@@ -1,8 +1,8 @@
 angular.module('RouteControllers', [])
-    .controller('HomeController', function($scope, $http) {
+    .controller('HomeController', function($scope) {
         $scope.title = "home"
     })
-    .controller('EventsController', function($scope, $http) {
+    .controller('EventsController', function($scope) {
         $scope.title = "events"
     })
     .controller('SongsController', function($scope, $filter) {
@@ -68,22 +68,29 @@ angular.module('RouteControllers', [])
 
     })
 
-    .controller('GalleryController', function($scope, $http) {
+    .controller('GalleryController', function($scope) {
         $scope.title = "gallery"
     })
-    .controller('BookingsController', function($scope, $http) {
+    .controller('BookingsController', function($scope) {
         $scope.title = "bookings"
     })
-    .controller('AboutusController', function($scope, $http) {
+    .controller('AboutusController', function($scope) {
         $scope.title = "about us"
     })
-    .controller('ContactsController', function($scope, $http) {
+    .controller('ContactsController', function($scope) {
         $scope.title = "contacts"
     })
-    .controller('Terms&conditionsController', function($scope, $http) {
+    .controller('Terms&conditionsController', function($scope) {
         $scope.title = "terms & conditions"
     })
-    .controller('PrivacypolicyController', function($scope, $http) {
+    .controller('PrivacypolicyController', function($scope) {
         $scope.title = "privacy policy"
-    });
+    })
+
+    .controller('MyAppCtrl', ['$scope', function($scope) {
+        $scope.someFunc = function() {
+        alert("Subscribed!");
+    };
+}]);
+
 

@@ -87,10 +87,11 @@ angular.module('RouteControllers', [])
         $scope.title = "privacy policy"
     })
 
-    .controller('MyAppCtrl', ['$scope', function($scope) {
+    .controller('FooterController', ['$scope', function($scope) {
         $scope.someFunc = function() {
         alert("Subscribed!");
     };
+
 }]);
 
 

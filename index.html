@@ -43,7 +43,8 @@
     </div>
     
     <!---Footer-->
-    <footer class="footer-bs">
+    <footer class="footer-bs" ng-controller= 'FooterController'>
+
         <div class="row">
           <div class="col-md-3 footer-brand animated fadeInLeft">
               <h5><img class="footerimg" src="/assets/images/themonkeeslogofooter.png" alt=""></h5>
@@ -85,7 +86,7 @@
                    <div class="inputfooter">
                     <div class="input-group">
 
-                    <div ng-controller= 'MyAppCtrl'>
+                    <div>
                      <form name="myForm">
                       <input type="email" name="email" ng-model="email" required>
                       <button ng-disabled="myForm.$invalid" ng-type="submit" ng-click="someFunc()">Submit</button>

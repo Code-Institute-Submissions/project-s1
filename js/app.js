@@ -1,6 +1,6 @@
-angular.module('AppS1', ['ngRoute', 'RouteControllers']);
+var app = angular.module('AppS1', ['ngRoute', 'RouteControllers', 'mydir']);
  
-angular.module('AppS1').config(function($routeProvider) {
+app.config(function($routeProvider) {
  
     $routeProvider.when('/', {
         templateUrl: 'templates/home.html',

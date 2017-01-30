@@ -923,7 +923,7 @@ div.searchbox
  background-color: #444;
  border-color:grey;
  margin: 4%;
- margin-left: 27%;
+ margin-left: 0%;
  border-radius: 4px;
 }
 
@@ -2079,9 +2079,9 @@ div.searchbox
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	margin-bottom:10px;
-	padding-left: 25%;
+	padding-left: 8.5%;
 }
-.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); padding-left: 14%;}
+.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); padding-left: 8.5%;}
 
 @media (min-width: 768px) {
 	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 0px rgba(255,255,255,0.10); }

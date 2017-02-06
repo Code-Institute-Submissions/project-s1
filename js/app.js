@@ -1,4 +1,4 @@
-var app = angular.module('AppS1', ['ngRoute', 'RouteControllers', 'mydir']);
+var app = angular.module('AppS1', ['ngRoute', 'RouteControllers']);
  
 app.config(function($routeProvider) {
  

@@ -1,5 +1,5 @@
-<!doctype html>
-<html data-ng-app='AppS1'>
+<!DOCTYPE html>
+<html lang="en" data-ng-app='AppS1'>
 <head>
     <title>The Monkees</title>
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -7,6 +7,7 @@
     <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"/>
     <style type="text/css">
         body {
          padding-top: 51px;            
@@ -37,17 +38,17 @@
 
     <!--Main content and injected views-->
     <div id="main">
-      <div data-ng-view autoscroll="true">
+      <div class="ng-view" autoscroll="true">
         
       </div>  
     </div>
     
     <!---Footer-->
-    <footer class="footer-bs" ng-controller= 'FooterController'>
+    <footer class="footer-bs" data-ng-controller='FooterController'>
 
         <div class="row">
           <div class="col-md-3 footer-brand animated fadeInLeft">
-              <h5><img class="footerimg" src="/assets/images/themonkeeslogofooter.png" alt=""></h5>
+              <img class="footerimg" src="/assets/images/themonkeeslogofooter.png" alt="">
                 <p>Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur vehicula, libero eget faucibus faucibus, purus erat eleifend enim, porta pellentesque ex mi ut sem</p>
                 <p>© 2016 All rights reserved Support: Support@MarkW.com</p>
             </div>
@@ -88,12 +89,12 @@
 
                     <div>
                      <form name="myForm">
-                      <input type="email" name="email" ng-model="email" required>
-                      <button ng-disabled="myForm.$invalid" ng-type="submit" ng-click="someEmail()">Submit</button>
+                      <input type="email" name="email" data-ng-model="email" required>
+                      <button data-ng-disabled="myForm.$invalid" data-ng-type="submit" data-ng-click="someEmail()">Submit</button>
                       <div class="validtxt">
-                      <span ng-show="myForm.email.$dirty && myForm.email.$invalid">
-                      <span ng-show="myForm.email.$error.required">Email is required.</span>
-                      <span ng-show="myForm.email.$error.email">Invalid email address.</span>
+                      <span data-ng-show="myForm.email.$dirty && myForm.email.$invalid">
+                      <span data-ng-show="myForm.email.$error.required">Email is required.</span>
+                      <span data-ng-show="myForm.email.$error.email">Invalid email address.</span>
                       </span> </div>
                      </form>
                     </div>

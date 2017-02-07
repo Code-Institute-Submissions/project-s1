@@ -402,8 +402,10 @@ audio
 .footerimg
 {
  padding-top: 5px;
+ padding-bottom: 5px;
  width: 30%;
  height: 30%;
+ margin-left:37%;
 }
 
 
@@ -634,9 +636,9 @@ img.ba
 
 .pasteventstext
 {
- padding-right: 40px;
  margin-left: 7%;
  margin-right: 7%;
+ padding-left:4%;
 }
 
 .eventstext1
@@ -1509,8 +1511,9 @@ div.searchbox
 {
  padding-top: none;
  padding-left: none;
- width: 6%;
+ width: 10%;
  height: 6%;
+ margin-left: 46%;
 }
 
 div.col-md-3.footer-ns.animated.fadeInRight
@@ -1788,7 +1791,7 @@ img.ba
 
 .pasteventstext
 {
- padding-right: 40px;
+ padding-left: 38px;
  margin-left: 7%;
  margin-right: 7%;
 }
@@ -2134,8 +2137,9 @@ div.col-md-3.footer-ns.animated.fadeInRight
 {
  padding-top: none;
  padding-left: none;
- width: 20%;
+ width: 27%;
  height: 5%;
+ margin-left: 38%;
 }
 
 .footer-bs .footer-social ul
